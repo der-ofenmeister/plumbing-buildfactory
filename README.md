@@ -1,75 +1,141 @@
-# Plumbing Takeoff Extractor
+# Plumbing PDF drawings details extractor
 
-## Description
+# Plumbing PDF Takeoff Intelligence
 
-This project extracts plumbing fixture information, including callouts, specifications, dimensions, and abbreviations, from PDF drawings. It processes the PDF, identifies relevant data, cleans abbreviation definitions using an AI model, and outputs the structured data in JSON format. It also provides a simple Streamlit web interface for uploading PDFs and viewing/downloading the results.
+A prototype tool to extract structured data from plumbing submittal PDFs and organize it into JSON for estimating fabrication needs. It pulls out plumbing callouts (e.g. `HUH-13`, `3/4"ø HHWS`), dimensions, and maps plumbing equipment codes to their full descriptions (e.g. `HHWR → HEATING HOT WATER RETURN`).
 
-## Features
+---
 
-*   Parses PDF files to extract text content.
-*   Identifies plumbing callouts using regular expressions (handles formats like `CODE-123` and `"ø CODE"`).
-*   Extracts associated dimensions where available.
-*   Locates and parses abbreviation definition blocks.
-*   Refines abbreviation definitions using regex lookaheads.
-*   Utilizes an AI model (Gemini) via the OpenAI API structure to clean and complete the abbreviation list.
-*   Groups identical items found on the same page and counts their quantity.
-*   Outputs extracted items and the final abbreviation map as a JSON file.
-*   Includes a Streamlit web application (`app.py`) for interactive use:
-    *   Upload PDF files.
-    *   View extracted data in a table.
-    *   Download results as `output.json`.
+## Table of Contents
 
-## Installation
+- [Plumbing PDF drawings details extractor](#plumbing-pdf-drawings-details-extractor)
+- [Plumbing PDF Takeoff Intelligence](#plumbing-pdf-takeoff-intelligence)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [How it works](#how-it-works)
+      - [PDF Parsing](#pdf-parsing)
+      - [Callout Extraction](#callout-extraction)
+      - [Abbreviation Block](#abbreviation-block)
+      - [Local Refinement](#local-refinement)
+      - [LLM Cleanup](#llm-cleanup)
+      - [Attachment \& Grouping](#attachment--grouping)
+  - [Technologies Used](#technologies-used)
+  - [Limitations \& Assumptions](#limitations--assumptions)
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repo-url>
-    cd plumbing-buildfactory
-    ```
+---
 
-2.  **Install dependencies using Poetry:**
-    Make sure you have [Poetry](https://python-poetry.org/docs/#installation) installed.
-    ```bash
-    poetry install
-    ```
+## Overview
 
-3.  **Environment Variables:**
-    The application uses an AI model for cleaning abbreviations. You need to have an API key for the service (currently configured for Google's Generative AI via an OpenAI-compatible endpoint). While the key seems hardcoded in `postprocess.py`, it's best practice to use environment variables. Consider modifying the code to read the key from the environment.
+This project processes a real‑world construction PDF (plumbing submittal), automatically:
 
-## Usage
+1. **Extracts** plumbing callouts and their quantities.  
+2. **Parses** an “ABBREVIATIONS” block to build a code→description map.  
+3. **Refines** descriptions with local regex slicing.  
+4. **(Optional)** Uses an LLM (Gemini/OpenAI) to clean up any remaining noise.  
+5. **Outputs** a JSON file with:
+   - A top‑level `abbreviations` dictionary (`CODE → full-form`).  
+   - An `items` array of all callouts with their page, spec_ref, dimension, mounting, and quantity.
 
-### Command Line Interface (`extract.py`)
+---
 
-To process a PDF and save the output to a specific JSON file:
+## Getting Started
+
+### Prerequisites
+
+- **Python** 3.9 – 3.10  
+- **Poetry** for dependency management  
+- An **OpenAI/Gemini API key** (optional, for LLM cleanup) in `OPENAI_API_KEY`.
+
+### Installation
+
+1. Clone this repo:
+
+   ```bash
+   git clone https://your.repo.url/plumbing-takeoff.git
+   cd plumbing-takeoff
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   poetry install
+   ```
+
+3. (Optional) Export your API key:
+
+   ```bash
+   export OPENAI_API_KEY="your_api_key"
+   ```
+
+### Usage
+
+Run the extraction script on your PDF, example:
 
 ```bash
-poetry run python extract.py <input_pdf_path> [output_json_path]
+poetry run python extract.py sample_input.pdf sample_output.json
 ```
 
-*   `<input_pdf_path>`: Path to the input PDF file.
-*   `[output_json_path]`: (Optional) Path to save the output JSON. Defaults to `sample_output.json`.
+### How it works
 
-Example:
-```bash
-poetry run python extract.py ./path/to/drawing.pdf results.json
-```
+#### PDF Parsing
 
-### Web Application (`app.py`)
+Uses PyMuPDF to open the PDF and extract text from each page.
 
-To run the Streamlit web interface:
+#### Callout Extraction
 
-```bash
-poetry run streamlit run app.py
-```
+Regex (CALL_OUT_RE) locates plumbing callouts (e.g. ABC-123, 3/4"ø XYZ).
+We normalize each callout to a code (e.g. XYZ) via either:
 
-Navigate to the URL provided by Streamlit (usually `http://localhost:8501`). You can then upload a PDF file through the interface to see the extracted results.
+The CODE-### pattern (e.g. HUH-13).
 
-## Dependencies
+The ø CODE pattern in cut‑sheet style.
 
-Key libraries used:
+#### Abbreviation Block
 
-*   [PyMuPDF (fitz)](https://github.com/pymupdf/PyMuPDF): For PDF parsing.
-*   [pypdf](https://github.com/py-pdf/pypdf): Used alongside PyMuPDF (though primarily for warning suppression in this code).
-*   [Streamlit](https://streamlit.io/): For the web application interface.
-*   [openai](https://github.com/openai/openai-python): Client library used to interact with the AI model API (configured for Gemini).
-*   [Poetry](https://python-poetry.org/): For dependency management.
+Finds the page containing “ABBREVIATION(S)”, then reads the contiguous lines right below it, stopping at the first blank line.
+
+#### Local Refinement
+
+Using refine_abbr_map, splits the block text with lookahead regex so each CODE → description is extracted without bleeding into the next code.
+
+#### LLM Cleanup
+
+The raw abbreviations map is sent to an LLM (Gemini 2.0 flash in this case) with a prompt to return only the cleaned JSON dictionary. Markdown fences are stripped so the response can be parsed directly.
+
+#### Attachment & Grouping
+
+Each callout record is tagged with its code and description, then grouped by (page, callout) to aggregate quantities.
+
+---
+
+## Technologies Used
+
+- **Python** for the script.
+- **PyMuPDF** for PDF parsing.
+- **OpenAI/Gemini API** for LLM cleanup.
+- **re/regex** for parsing the PDF.
+- **Poetry** for virtual environment and dependency management.
+- **Standard library** for everything else.
+
+---
+
+## Limitations & Assumptions
+
+- PDF Structure
+  - Assumes a clearly labeled “ABBREVIATION(S)” block and callouts following the patterns CODE-### or ø CODE.
+
+- Regex‑based
+  - May miss abbreviations if the block contains unexpected formatting or if codes exceed 5 letters.
+
+- LLM Dependence
+  - Final cleanup relies on an external LLM and network access; falls back to local regex if unavailable.
+
+- Mounting
+  - Currently always null—mounting types (wall‑hung, floor‑mounted, etc.) are not parsed.
+
+- Error Handling
+  - Silently ignores failed LLM calls or missing headers; you may need to review logs for incomplete mappings.
