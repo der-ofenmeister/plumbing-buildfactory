@@ -47,8 +47,8 @@ This project processes a real‑world construction PDF (plumbing submittal), aut
 ### Prerequisites
 
 - **Python** 3.9 – 3.10  
-- **Poetry** for dependency management  
-- An **OpenAI/Gemini API key** (optional, for LLM cleanup) in `OPENAI_API_KEY`.
+- **Poetry** for dependency management and virtual environment  
+- An **OpenAI/Gemini API key** (optional, for LLM cleanup) (don't worry I have hardcoded my key for now!)
 
 ### Installation
 
