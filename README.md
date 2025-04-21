@@ -48,15 +48,15 @@ This project processes a real‑world construction PDF (plumbing submittal), aut
 
 - **Python** 3.9 – 3.10  
 - **Poetry** for dependency management and virtual environment  
-- An **OpenAI/Gemini API key** (optional, for LLM cleanup) (don't worry I have hardcoded my key for now!)
+- An **OpenAI/Gemini API key** (optional, for LLM cleanup)
 
 ### Installation
 
 1. Clone this repo:
 
    ```bash
-   git clone https://your.repo.url/plumbing-takeoff.git
-   cd plumbing-takeoff
+   git clone https://github.com/der-ofenmeister/plumbing-buildfactory.git
+   cd plumbing-buildfactory
    ```
 
 2. Install dependencies:
@@ -65,10 +65,10 @@ This project processes a real‑world construction PDF (plumbing submittal), aut
    poetry install
    ```
 
-3. (Optional) Export your API key:
+3. (Optional) Export your Gemini API key:
 
    ```bash
-   export OPENAI_API_KEY="your_api_key"
+   export GEMINI_API_KEY="your_api_key"
    ```
 
 ### Usage
@@ -86,7 +86,6 @@ poetry run streamlit run app.py
 ```
 
 By default it will spin up at http://localhost:8501. Just point your browser there.
-
 
 ### How it works
 
