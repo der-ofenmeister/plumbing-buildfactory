@@ -1,5 +1,5 @@
 import sys, re, time, warnings
-import pdfplumber
+import fitz
 from collections import defaultdict
 from utils import CALL_OUT_RE, DIM_RE, group_and_count, write_json
 from pypdf.errors import PdfReadWarning
@@ -15,49 +15,45 @@ ABBR_HEADER = re.compile(r"ABBREVIATION", re.IGNORECASE)
 ENTRY_RE    = re.compile(r"([A-Z0-9]{2,4})\s+(.+)")
 
 def parse_pdf(path):
-    print("→ [DEBUG] Opening PDF once…", flush=True)
     t0 = time.time()
-
+    doc = fitz.open(path)
+    total = doc.page_count
     abbr = {}
     records = []
 
-    with pdfplumber.open(path) as pdf:
-        total = len(pdf.pages)
-        print(f"→ [DEBUG] PDF has {total} pages", flush=True)
+    for i in range(total):
+        page = doc[i]
+        txt = page.get_text()  # very fast
+        lines = txt.splitlines()
 
-        for pageno, page in enumerate(pdf.pages, start=1):
-            print(f"→ [DEBUG] Page {pageno}/{total}", flush=True)
-            text = page.extract_text() or ""
-            lines = text.split("\n")
-
-            # 1) build abbrev map if present on this page
-            if ABBR_HEADER.search(text):
-                print(f"   ↳ [DEBUG] Found ABBREVIATION section on page {pageno}", flush=True)
-                for ln in lines:
-                    m = ENTRY_RE.match(ln.strip())
-                    if m:
-                        code, desc = m.groups()
-                        abbr[code] = desc.strip()
-
-            # 2) extract callouts & dims
+        # build abbreviations on the fly
+        if ABBR_HEADER.search(txt):
             for ln in lines:
-                for call in CALL_OUT_RE.findall(ln):
-                    dim_match = DIM_RE.search(ln)
-                    m2 = re.search(r"ø\s*([A-Z]{2,4}R?)", call)
-                    item = abbr.get(m2.group(1)) if m2 else None
-                    records.append({
-                        "page": pageno,
-                        "callout": call,
-                        "item_type": item,
-                        "spec_ref": call if "-" in call else None,
-                        "dimension": dim_match.group(1) if dim_match else None,
-                        "mounting": None,
-                        "quantity": 1
-                    })
+                m = ENTRY_RE.match(ln.strip())
+                if m:
+                    code, desc = m.groups()
+                    abbr[code] = desc.strip()
 
-    print(f"→ [DEBUG] Parsed all pages in {time.time()-t0:.1f}s", flush=True)
+        # extract callouts & dims
+        for ln in lines:
+            for call in CALL_OUT_RE.findall(ln):
+                dm = DIM_RE.search(ln)
+                m2 = re.search(r"ø\s*([A-Z]{2,4}R?)", call)
+                item = abbr.get(m2.group(1)) if m2 else None
+                records.append({
+                    "page": i+1,
+                    "callout": call,
+                    "item_type": item,
+                    "spec_ref": call if "-" in call else None,
+                    "dimension": dm.group(1) if dm else None,
+                    "mounting": None,
+                    "quantity": 1
+                })
+
+    elapsed = time.time() - t0
+    print(f"Parsed {total} pages in {elapsed:.2f}s")
     grouped = group_and_count(records)
-    print(f"→ [DEBUG] Collapsed to {len(grouped)} unique items", flush=True)
+    print(f"→ {len(grouped)} unique items")
     return grouped
 
 def main():
