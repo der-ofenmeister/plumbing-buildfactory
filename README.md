@@ -79,6 +79,15 @@ Run the extraction script on your PDF, example:
 poetry run python extract.py sample_input.pdf sample_output.json
 ```
 
+Alternatively, run the Streamlit app:
+
+```bash
+poetry run streamlit run app.py
+```
+
+By default it will spin up at http://localhost:8501. Just point your browser there.
+
+
 ### How it works
 
 #### PDF Parsing
