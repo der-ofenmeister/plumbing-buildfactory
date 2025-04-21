@@ -119,7 +119,7 @@ Each callout record is tagged with its code and description, then grouped by (pa
 - **OpenAI/Gemini API** for LLM cleanup.
 - **re/regex** for parsing the PDF.
 - **Poetry** for virtual environment and dependency management.
-- **Standard library** for everything else.
+- **Standard library (json, time, warnings, collections)** for everything else.
 
 ---
 
