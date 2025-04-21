@@ -1,0 +1,3316 @@
+{
+  "abbreviations": {
+    "CHWP": "CHILLED WATER PUMP",
+    "CHWS": "CHILLED WATER SUPPLY",
+    "CWP": "CONDENSER WATER PUMP",
+    "HHWR": "HEATING HOT WATER RETURN",
+    "HHWS": "HEATING HOT WATER SUPPLY",
+    "CHWR": "CHILLED WATER RETURN",
+    "HUH": "HOT WATER UNIT HEATER",
+    "CWS": "CONDENSER WATER SUPPLY",
+    "CWR": "CONDENSER WATER RETURN",
+    "HHW": "HEATING HOT WATER",
+    "BCP": "BOILER CIRCULATING PUMP",
+    "FCU": "FAN COIL UNIT",
+    "MAU": "MAKEUP AIR UNIT",
+    "CFS": "CHEMICAL FEEDER STORAGE",
+    "ET": "EXPANSION TANK",
+    "HX": "HEAT EXCHANGER",
+    "VAV": "VARIABLE AIR VOLUME",
+    "DN": "DOWN",
+    "DPS": "DIFFERENTIAL PRESSURE SWITCH",
+    "CH": "CHILLED WATER",
+    "CD": "CONDENSATE DRAIN",
+    "CP": "CIRCULATING PUMP",
+    "ST": "STEAM TRAP",
+    "OM": "OIL METER",
+    "RTU": "ROOFTOP UNIT",
+    "TTE": "THERMOSTATIC TRAP ELEMENT",
+    "AHU": "AIR HANDLING UNIT",
+    "AS": "AIR SEPARATOR",
+    "HWP": "HOT WATER PUMP",
+    "DPTE": "DIFFERENTIAL PRESSURE TRANSMITTER ELEMENT"
+  },
+  "items": [
+    {
+      "page": 2,
+      "callout": "HUH-13",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-13",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "HUH-9",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-9",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-138",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-138",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-139",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-139",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-137",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-137",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 2,
+      "callout": "ST-002",
+      "abbr_code": "ST",
+      "abbr_desc": "STEAM TRAP",
+      "spec_ref": "ST-002",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-105",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-105",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-106",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-106",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-104",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-104",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-140",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-140",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 6
+    },
+    {
+      "page": 2,
+      "callout": "OM-135",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-135",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-136",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-136",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-141",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-141",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 2,
+      "callout": "OM-142",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-142",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "OM-126",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-126",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 5
+    },
+    {
+      "page": 2,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 5
+    },
+    {
+      "page": 2,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 2,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 2,
+      "callout": "1/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "1/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 2,
+      "callout": "MAU-11",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-11",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-106",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-106",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-104",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-104",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-140",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-140",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 6
+    },
+    {
+      "page": 3,
+      "callout": "OM-135",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-135",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-136",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-136",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-141",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-141",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-142",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-142",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 10
+    },
+    {
+      "page": 3,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 9
+    },
+    {
+      "page": 3,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "HUH-14",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-14",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "1/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "1/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "MAU-12",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-12",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-132",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-132",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-131",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-131",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-130",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-130",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "OM-137",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-137",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "ST-003",
+      "abbr_code": "ST",
+      "abbr_desc": "STEAM TRAP",
+      "spec_ref": "ST-003",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 3,
+      "callout": "3/4\"\u00f8 CD",
+      "abbr_code": "CD",
+      "abbr_desc": "CONDENSATE DRAIN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 5
+    },
+    {
+      "page": 4,
+      "callout": "HUH-13",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-13",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "ST-002",
+      "abbr_code": "ST",
+      "abbr_desc": "STEAM TRAP",
+      "spec_ref": "ST-002",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "OM-105",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-105",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 4,
+      "callout": "OM-106",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-106",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "OM-104",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-104",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 4
+    },
+    {
+      "page": 4,
+      "callout": "OM-140",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-140",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 5
+    },
+    {
+      "page": 4,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 5
+    },
+    {
+      "page": 4,
+      "callout": "1/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 4,
+      "callout": "1/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 4,
+      "callout": "OM-045",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-045",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "OM-099",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-099",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 4,
+      "callout": "OM-102",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-102",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "OM-103",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-103",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "OM-101",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-101",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "OM-100",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-100",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 9
+    },
+    {
+      "page": 4,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 8
+    },
+    {
+      "page": 4,
+      "callout": "10\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 4,
+      "callout": "3/4\"\u00f8 CD",
+      "abbr_code": "CD",
+      "abbr_desc": "CONDENSATE DRAIN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 12
+    },
+    {
+      "page": 5,
+      "callout": "OM-106",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-106",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "OM-104",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-104",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 5,
+      "callout": "OM-140",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-140",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 5,
+      "callout": "HUH-14",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-14",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "1/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 5,
+      "callout": "1/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 5,
+      "callout": "ST-003",
+      "abbr_code": "ST",
+      "abbr_desc": "STEAM TRAP",
+      "spec_ref": "ST-003",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "OM-127",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-127",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 5,
+      "callout": "OM-126",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-126",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "OM-109",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-109",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 4
+    },
+    {
+      "page": 5,
+      "callout": "OM-101",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-101",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "OM-100",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-100",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 6
+    },
+    {
+      "page": 5,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 9
+    },
+    {
+      "page": 5,
+      "callout": "10\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 4
+    },
+    {
+      "page": 5,
+      "callout": "1/2\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 5,
+      "callout": "1/2\"\u00f8 CHWS",
+      "abbr_code": "CHWS",
+      "abbr_desc": "CHILLED WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 5,
+      "callout": "1/4\"\u00f8 CHWS",
+      "abbr_code": "CHWS",
+      "abbr_desc": "CHILLED WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "1/4\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "10\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 5,
+      "callout": "3/4\"\u00f8 CHWS",
+      "abbr_code": "CHWS",
+      "abbr_desc": "CHILLED WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 4
+    },
+    {
+      "page": 5,
+      "callout": "3/4\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 5,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 21
+    },
+    {
+      "page": 5,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 23
+    },
+    {
+      "page": 5,
+      "callout": "HUH-11",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-11",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "HUH-8",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-8",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "HUH-12",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-12",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "OM-098",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-098",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "ST-001",
+      "abbr_code": "ST",
+      "abbr_desc": "STEAM TRAP",
+      "spec_ref": "ST-001",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 5,
+      "callout": "3/4\"\u00f8 CD",
+      "abbr_code": "CD",
+      "abbr_desc": "CONDENSATE DRAIN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 15
+    },
+    {
+      "page": 6,
+      "callout": "OM-044",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-044",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-045",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-045",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 6,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 14
+    },
+    {
+      "page": 6,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 14
+    },
+    {
+      "page": 6,
+      "callout": "10\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "10\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "MAU-10",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-10",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "AHU-1",
+      "abbr_code": "AHU",
+      "abbr_desc": "AIR HANDLING UNIT",
+      "spec_ref": "AHU-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 6,
+      "callout": "MAU-8",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-8",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-041",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-041",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-042",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-042",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-043",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-043",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-070",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-070",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-071",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-071",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-072",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-072",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-073",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-073",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-075",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-075",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-076",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-076",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-077",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-077",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-078",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-078",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-074",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-074",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 6,
+      "callout": "OM-039",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-039",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 7,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 7,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 9
+    },
+    {
+      "page": 7,
+      "callout": "10\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 7,
+      "callout": "10\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 7,
+      "callout": "AHU-1",
+      "abbr_code": "AHU",
+      "abbr_desc": "AIR HANDLING UNIT",
+      "spec_ref": "AHU-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 7,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 10
+    },
+    {
+      "page": 7,
+      "callout": "MAU-9",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-9",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-073",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-073",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-075",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-075",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-076",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-076",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-077",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-077",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-078",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-078",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-092",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-092",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-094",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-094",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-095",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-095",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-096",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-096",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-097",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-097",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "OM-098",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-098",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 7,
+      "callout": "ST-001",
+      "abbr_code": "ST",
+      "abbr_desc": "STEAM TRAP",
+      "spec_ref": "ST-001",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-039",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-039",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-067",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-067",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-069",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-069",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 5
+    },
+    {
+      "page": 8,
+      "callout": "OM-064",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-064",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 14
+    },
+    {
+      "page": 8,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 13
+    },
+    {
+      "page": 8,
+      "callout": "MAU-6",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-6",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "MAU-4",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-4",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "1/4\"\u00f8 CHWS",
+      "abbr_code": "CHWS",
+      "abbr_desc": "CHILLED WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 8,
+      "callout": "1/4\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 8,
+      "callout": "AHU-1",
+      "abbr_code": "AHU",
+      "abbr_desc": "AIR HANDLING UNIT",
+      "spec_ref": "AHU-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 8,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 10
+    },
+    {
+      "page": 8,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 12
+    },
+    {
+      "page": 8,
+      "callout": "OM-034",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-034",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-035",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-035",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-036",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-036",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-037",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-037",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-038",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-038",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-051",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-051",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-054",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-054",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-058",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-058",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-059",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-059",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-061",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-061",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-060",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-060",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-066",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-066",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-065",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-065",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-068",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-068",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 8,
+      "callout": "OM-144",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-144",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-145",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-145",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-146",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-146",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 8,
+      "callout": "OM-063",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-063",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-069",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-069",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-092",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-092",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "1/4\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "1/4\"\u00f8 CHWS",
+      "abbr_code": "CHWS",
+      "abbr_desc": "CHILLED WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "AHU-1",
+      "abbr_code": "AHU",
+      "abbr_desc": "AIR HANDLING UNIT",
+      "spec_ref": "AHU-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 9,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 9
+    },
+    {
+      "page": 9,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 10
+    },
+    {
+      "page": 9,
+      "callout": "OM-054",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-054",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-059",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-059",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-061",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-061",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-060",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-060",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-065",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-065",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-144",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-144",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-146",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-146",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-063",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-063",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 4
+    },
+    {
+      "page": 9,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 12
+    },
+    {
+      "page": 9,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 13
+    },
+    {
+      "page": 9,
+      "callout": "MAU-7",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-7",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "MAU-4",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-4",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-087",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-087",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-088",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-088",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-089",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-089",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-090",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-090",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-091",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-091",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 9,
+      "callout": "OM-145",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-145",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 6
+    },
+    {
+      "page": 10,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 10
+    },
+    {
+      "page": 10,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 12
+    },
+    {
+      "page": 10,
+      "callout": "OM-033",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-033",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-051",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-051",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-054",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-054",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-053",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-053",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-026",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-026",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-024",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-024",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 10,
+      "callout": "OM-028",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-028",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-029",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-029",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-030",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-030",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-031",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-031",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-032",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-032",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-048",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-048",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-050",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-050",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-055",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-055",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-049",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-049",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "OM-018",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-018",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 10,
+      "callout": "OM-052",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-052",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "MAU-2",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "HUH-5",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-5",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 10,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 10,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 10,
+      "callout": "OM-025",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-025",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-047",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-047",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 6
+    },
+    {
+      "page": 11,
+      "callout": "OM-054",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-054",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-053",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-053",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-026",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-026",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-055",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-055",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-052",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-052",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 12
+    },
+    {
+      "page": 11,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 14
+    },
+    {
+      "page": 11,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 11,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 11,
+      "callout": "OM-027",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-027",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-080",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-080",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-081",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-081",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-083",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-083",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-084",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-084",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-085",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-085",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "OM-086",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-086",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 11,
+      "callout": "RTU-1",
+      "abbr_code": "RTU",
+      "abbr_desc": "ROOFTOP UNIT",
+      "spec_ref": "RTU-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 11,
+      "callout": "MAU-3",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-3",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 11,
+      "callout": "HUH-6",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-6",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-007",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-007",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 12,
+      "callout": "HUH-5",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-5",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 11
+    },
+    {
+      "page": 12,
+      "callout": "HUH-1",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 10
+    },
+    {
+      "page": 12,
+      "callout": "FCU-1",
+      "abbr_code": "FCU",
+      "abbr_desc": "FAN COIL UNIT",
+      "spec_ref": "FCU-1",
+      "dimension": "1' - 1 3/4\"",
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 12
+    },
+    {
+      "page": 12,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 13
+    },
+    {
+      "page": 12,
+      "callout": "1/2\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "1/2\"\u00f8 CHWS",
+      "abbr_code": "CHWS",
+      "abbr_desc": "CHILLED WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "HUH-2",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "HUH-3",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-3",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "HUH-4",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-4",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-012",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-012",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-013",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-013",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-014",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-014",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-015",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-015",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-004",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-004",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-005",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-005",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-002",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-002",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-001",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-001",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 12,
+      "callout": "OM-003",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-003",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 12,
+      "callout": "OM-006",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-006",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 26
+    },
+    {
+      "page": 13,
+      "callout": "HUH-6",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-6",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 26
+    },
+    {
+      "page": 13,
+      "callout": "MAU-1",
+      "abbr_code": "MAU",
+      "abbr_desc": "MAKEUP AIR UNIT",
+      "spec_ref": "MAU-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "HX-1",
+      "abbr_code": "HX",
+      "abbr_desc": "HEAT EXCHANGER",
+      "spec_ref": "HX-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "ET-5",
+      "abbr_code": "ET",
+      "abbr_desc": "EXPANSION TANK",
+      "spec_ref": "ET-5",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "CP-1",
+      "abbr_code": "CP",
+      "abbr_desc": "CIRCULATING PUMP",
+      "spec_ref": "CP-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "OM-004",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-004",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "OM-005",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-005",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "OM-007",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-007",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "OM-016",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-016",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 13,
+      "callout": "OM-020",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-020",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 13,
+      "callout": "OM-021",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-021",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "OM-022",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-022",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 13,
+      "callout": "OM-023",
+      "abbr_code": "OM",
+      "abbr_desc": "OIL METER",
+      "spec_ref": "OM-023",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "10\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 5
+    },
+    {
+      "page": 14,
+      "callout": "HWP-3",
+      "abbr_code": "HWP",
+      "abbr_desc": "HOT WATER PUMP",
+      "spec_ref": "HWP-3",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "HWP-2",
+      "abbr_code": "HWP",
+      "abbr_desc": "HOT WATER PUMP",
+      "spec_ref": "HWP-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "HWP-1",
+      "abbr_code": "HWP",
+      "abbr_desc": "HOT WATER PUMP",
+      "spec_ref": "HWP-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "CWP-2",
+      "abbr_code": "CWP",
+      "abbr_desc": "CONDENSER WATER PUMP",
+      "spec_ref": "CWP-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "CWP-1",
+      "abbr_code": "CWP",
+      "abbr_desc": "CONDENSER WATER PUMP",
+      "spec_ref": "CWP-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "AS-1",
+      "abbr_code": "AS",
+      "abbr_desc": "AIR SEPARATOR",
+      "spec_ref": "AS-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "CH-1",
+      "abbr_code": "CH",
+      "abbr_desc": "CHILLED WATER",
+      "spec_ref": "CH-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "1/2\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 14,
+      "callout": "1/2\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 14,
+      "callout": "3/4\"\u00f8 CHWR",
+      "abbr_code": "CHWR",
+      "abbr_desc": "CHILLED WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "10\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 14,
+      "callout": "BCP-4",
+      "abbr_code": "BCP",
+      "abbr_desc": "BOILER CIRCULATING PUMP",
+      "spec_ref": "BCP-4",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "BCP-3",
+      "abbr_code": "BCP",
+      "abbr_desc": "BOILER CIRCULATING PUMP",
+      "spec_ref": "BCP-3",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "BCP-2",
+      "abbr_code": "BCP",
+      "abbr_desc": "BOILER CIRCULATING PUMP",
+      "spec_ref": "BCP-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "BCP-1",
+      "abbr_code": "BCP",
+      "abbr_desc": "BOILER CIRCULATING PUMP",
+      "spec_ref": "BCP-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "1/2\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 14,
+      "callout": "1/2\"\u00f8 CHWS",
+      "abbr_code": "CHWS",
+      "abbr_desc": "CHILLED WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "1/2\"\u00f8 CWR",
+      "abbr_code": "CWR",
+      "abbr_desc": "CONDENSER WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "1/2\"\u00f8 CWS",
+      "abbr_code": "CWS",
+      "abbr_desc": "CONDENSER WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 14,
+      "callout": "HX-2",
+      "abbr_code": "HX",
+      "abbr_desc": "HEAT EXCHANGER",
+      "spec_ref": "HX-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "CHWP-2",
+      "abbr_code": "CHWP",
+      "abbr_desc": "CHILLED WATER PUMP",
+      "spec_ref": "CHWP-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "CWHP-1",
+      "abbr_code": "CWHP",
+      "abbr_desc": "",
+      "spec_ref": "CWHP-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "AS-2",
+      "abbr_code": "AS",
+      "abbr_desc": "AIR SEPARATOR",
+      "spec_ref": "AS-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "ET-1",
+      "abbr_code": "ET",
+      "abbr_desc": "EXPANSION TANK",
+      "spec_ref": "ET-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "ET-2",
+      "abbr_code": "ET",
+      "abbr_desc": "EXPANSION TANK",
+      "spec_ref": "ET-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "CFS-1",
+      "abbr_code": "CFS",
+      "abbr_desc": "CHEMICAL FEEDER STORAGE",
+      "spec_ref": "CFS-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "HUH-10",
+      "abbr_code": "HUH",
+      "abbr_desc": "HOT WATER UNIT HEATER",
+      "spec_ref": "HUH-10",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "3/4\"\u00f8 HHWR",
+      "abbr_code": "HHWR",
+      "abbr_desc": "HEATING HOT WATER RETURN",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "3/4\"\u00f8 HHWS",
+      "abbr_code": "HHWS",
+      "abbr_desc": "HEATING HOT WATER SUPPLY",
+      "spec_ref": null,
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "TTE-1",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "TTE-3",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-3",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "DPTE-1",
+      "abbr_code": "DPTE",
+      "abbr_desc": "DIFFERENTIAL PRESSURE TRANSMITTER ELEMENT",
+      "spec_ref": "DPTE-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "DPTE-2",
+      "abbr_code": "DPTE",
+      "abbr_desc": "DIFFERENTIAL PRESSURE TRANSMITTER ELEMENT",
+      "spec_ref": "DPTE-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 3
+    },
+    {
+      "page": 14,
+      "callout": "TTE-5",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-5",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "DPS-7",
+      "abbr_code": "DPS",
+      "abbr_desc": "DIFFERENTIAL PRESSURE SWITCH",
+      "spec_ref": "DPS-7",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "DPS-8",
+      "abbr_code": "DPS",
+      "abbr_desc": "DIFFERENTIAL PRESSURE SWITCH",
+      "spec_ref": "DPS-8",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "DPS-9",
+      "abbr_code": "DPS",
+      "abbr_desc": "DIFFERENTIAL PRESSURE SWITCH",
+      "spec_ref": "DPS-9",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "TTE-2",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-2",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "TTE-4",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-4",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "HHW-1",
+      "abbr_code": "HHW",
+      "abbr_desc": "HEATING HOT WATER",
+      "spec_ref": "HHW-1",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "TTE-6",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-6",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 2
+    },
+    {
+      "page": 14,
+      "callout": "TTE-7",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-7",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "TTE-9",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-9",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "TTE-10",
+      "abbr_code": "TTE",
+      "abbr_desc": "THERMOSTATIC TRAP ELEMENT",
+      "spec_ref": "TTE-10",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    },
+    {
+      "page": 14,
+      "callout": "DPTE-3",
+      "abbr_code": "DPTE",
+      "abbr_desc": "DIFFERENTIAL PRESSURE TRANSMITTER ELEMENT",
+      "spec_ref": "DPTE-3",
+      "dimension": null,
+      "mounting": null,
+      "quantity": 1
+    }
+  ]
+}
