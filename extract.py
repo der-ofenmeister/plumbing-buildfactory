@@ -10,6 +10,7 @@ import time
 # warnings.filterwarnings("ignore", category=PdfReadWarning, message="CropBox missing from.*")
 import pdfplumber
 
+
 def parse_pdf(path):
     abbr = build_abbr_map(path)
     records = []
@@ -39,9 +40,13 @@ def parse_pdf(path):
     return group_and_count(records)
 
 
-if __name__ == "__main__":
+def main():
     inp = sys.argv[1]
     out = sys.argv[2] if len(sys.argv) > 2 else "sample_output.json"
     data = parse_pdf(inp)
     write_json(data, out)
-    print(f"Wrote {len(data)} items to {out}")
+    print(f"\nWrote {len(data)} items to {out}")
+
+
+if __name__ == "__main__":
+    main()
